@@ -1,0 +1,17 @@
+
+---
+spring:
+  datasource:
+    url: jdbc:h2:mem:dealerfranchisedb
+    username: sa
+    password: 
+
+    dbcp2:
+      driver-class-name: org.h2.Driver
+      test-on-borrow: true
+      validation-query: SELECT 1
+      max-total: 1
+
+  jpa:
+    show-sql: true
+

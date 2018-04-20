@@ -1,0 +1,34 @@
+logging:
+  file: dealerfranchise.log
+  level:
+    ROOT: WARN
+    org.springframework: ERROR
+    com.sri: DEBUG
+
+
+spring.output.ansi.enabled: detect
+
+spring.h2.console.enabled: true
+
+info:
+  app:
+    name: Demo for dealer franchise
+    description: 
+    version: 0.1
+    tosUrl:
+    license:
+    licenseUrl:
+    contact:
+      name:
+      url:
+      email:
+
+
+management:
+  health:
+    diskspace:
+      enabled: true
+  endpoints:
+    enabled-by-default: true
+
+
